@@ -12,7 +12,7 @@ from secret_key import openapi_key
 os.environ["OPENAI_API_KEY"] = openapi_key
 
 # rebuild storage context
-storage_context = StorageContext.from_defaults(persist_dir='/Users/tarakram/Documents/Chatbot/index')
+storage_context = StorageContext.from_defaults(persist_dir='/workspaces/Firstrepo/index')
 # load index
 index = load_index_from_storage(storage_context)
 
